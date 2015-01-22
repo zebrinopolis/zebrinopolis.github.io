@@ -6,28 +6,24 @@ body {
 	line-height: 100%;
 	 }
 
-hr { width: 50%;
-	}
-
+hr {
+	width: 50%;
+}
 h1 {
-	color: #990033;
 	font-size: 4em;
 	font-weight: bold;
-	margin: 50px;
+	margin: 3em;
 	text-align: center;
-   }
+}
 img.astraljelly {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-#slogan {
+.slogan {
 	color: #FFFFFF;
 	font-style: italic;
-	font-size: 15px;
-	   }
-
-#email {
-		color: #FFFFFF;
-	  }
+}
+.email {
+	color: #FFFFFF;
+}
