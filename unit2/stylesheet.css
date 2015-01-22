@@ -1,6 +1,6 @@
 body {
 	background-color: #888888;
-	color: #990033;
+	color:#fff;
 	font-weight: normal;
 	font-size: 17px;
 	line-height: 100%;
@@ -10,20 +10,21 @@ hr {
 	width: 50%;
 }
 h1 {
+	color:#990033;
 	font-size: 4em;
 	font-weight: bold;
-	margin: 3em;
+	margin: 1em;
 	text-align: center;
+}
+h2 {
+	font-size:2em;
+	font-weight:italic;
 }
 img.astraljelly {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-.slogan {
-	color: #FFFFFF;
-	font-style: italic;
-}
 .email {
-	color: #FFFFFF;
+	color: #990033;
 }
