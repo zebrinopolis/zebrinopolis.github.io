@@ -1,0 +1,31 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color:rgb(136,136,136);
+	background-image:url("img/zeebsbg.jpg");
+	background-size:cover;
+	color:rgb(255,255,255);
+	font-size:23px;
+	font-family:Tahoma, Geneva, sans-serif;
+
+}
+h1 {
+	margin:1% auto 1% 5%;
+}
+p {
+	margin:.5% auto 2% 5%;
+	width:400px;
+}
+img {
+	margin:.5%;
+	opacity:.85;
+}
+button {
+	background-color:rgba(128,230,255,.7);
+	border:2px solid rgba(255,255,255,.7);
+	border-radius:10px;
+	color: rgb(255,255,255);
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:17px;
+	margin:1% auto 1% 15%;
+	padding:15px;
+}
