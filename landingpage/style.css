@@ -7,28 +7,31 @@ body {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:20px;
 }
+div {
+	margin-left:5em;
+}
 h1 {
 	font-family: 'Pacifico', cursive;
 	font-size:3em;
-	margin:1% auto 1% 5%;
+	margin:1% 0 1% 0;
 }
 p {
 	font-family: 'Sue Ellen Francisco', cursive;
 	font-size:1.5em;
-	margin:.5% auto 2% 5%;
+	margin:.5% 0 2% 0;
 	width:400px;
 }
 img {
 	margin:.5%;
 	opacity:.85;
 }
-button {
+a {
 	background-color:rgba(128,230,255,.5);
 	border:2px solid rgba(255,255,255,.7);
 	border-radius:10px;
 	color: rgb(255,255,255);
 	font-family: 'Sue Ellen Francisco', cursive;
 	font-size:1.5em;
-	margin:1% auto 1% 15%;
+	margin:1% 0 1% 0;
 	padding:15px;
 }
