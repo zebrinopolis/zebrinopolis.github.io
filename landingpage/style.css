@@ -22,7 +22,11 @@ img {
 	margin:.5%;
 	opacity:.85;
 }
-button {
+a:hover{ 
+	background-color:rgba(128,230,255,.8);
+	text-decoration:none;
+}
+a {
 	background-color:rgba(128,230,255,.5);
 	border:2px solid rgba(255,255,255,.7);
 	border-radius:10px;
@@ -31,4 +35,6 @@ button {
 	font-size:1.5em;
 	margin:1% auto 1% 15%;
 	padding:15px;
+	text-decoration:none;
+}
 }
