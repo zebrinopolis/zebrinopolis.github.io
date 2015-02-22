@@ -1,0 +1,51 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+a {
+	background-color:rgba(128,230,255,.5);
+	border:2px solid rgba(255,255,255,.7);
+	border-radius:10px;
+	color: rgb(255,255,255);
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size:1.5em;
+	margin:1% 0 1% 0;
+	padding:15px;
+	text-decoration:none;
+}
+body {
+	background-color:rgb(136,136,136);
+	background-image:url("img/lanibg.jpg");
+	background-size:cover;
+	color:rgb(255,255,255);
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size:20px;
+}
+div {
+	margin-left:6.5em;
+}
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size:3em;
+	margin:1% 0 1% 0;
+}
+img {
+	margin:.5%;
+	opacity:.85;
+}
+navigation { 
+	display:inline;
+	margin: 0;
+
+}
+p {
+	background:rgba(128,230,255,.8);
+	border:2px solid rgba(255,255,255,.7);
+	border-radius:10px;
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size:1.5em;
+	margin:.5% 0 2% 0;
+	width:20em;
+}
+
+a:hover{ 
+	background-color:rgba(128,230,255,.8);
+	text-decoration:none;
+}
