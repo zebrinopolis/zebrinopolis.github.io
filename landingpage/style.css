@@ -7,26 +7,20 @@ body {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:20px;
 }
-div {
-	margin-left:5em;
-}
 h1 {
 	font-family: 'Pacifico', cursive;
 	font-size:3em;
-	margin:1% 0 1% 0;
+	margin:1em;
 }
 p {
 	font-family: 'Sue Ellen Francisco', cursive;
 	font-size:1.5em;
-	margin:.5% 0 2% 0;
-	width:400px;
+	margin:0 8em;
+	width:20em;
 }
 img {
-	margin:0;
+	float:left;
 	opacity:.85;
-}
-nav img {
-	width:75px;
 }
 nav a {
 	background-color:rgba(128,230,255,.5);
@@ -36,11 +30,25 @@ nav a {
 	float:left;
 	font-family: 'Sue Ellen Francisco', cursive;
 	font-size:1.5em;
-	margin:0;
-	padding:15px;
+	margin:3em .25em;
+	padding:0 .5em;
+	text-decoration:none;
+}
+footer {
+	bottom:0;
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size:1.5em;
+	margin:1em;
+	position:fixed;
+}
+a {
+	color:rgb(128,230,255);
 	text-decoration:none;
 }
 a:hover{ 
 	background-color:rgba(128,230,255,.8);
 	text-decoration:none;
+}
+.socialmedia {
+	padding:.15em;
 }
