@@ -14,8 +14,8 @@ h1 {
 }
 p {
 	font-family: 'Sue Ellen Francisco', cursive;
-	font-size:1.5em;
-	margin:0 8em;
+	font-size:1.62em;
+	margin:0 6em;
 	width:20em;
 }
 img {
@@ -37,18 +37,41 @@ nav a {
 footer {
 	bottom:0;
 	font-family: 'Sue Ellen Francisco', cursive;
-	font-size:1.5em;
+	font-size:1.62em;
 	margin:1em;
 	position:fixed;
 }
 a {
-	color:rgb(128,230,255);
+	background-color:rgba(128,230,255,.5);
+	border:2px solid rgba(255,255,255,.7);
+	border-radius:10px;
+	color: rgb(255,255,255);
+	font-family: 'Sue Ellen Francisco', cursive;
+	padding:0 .5em;
 	text-decoration:none;
 }
 a:hover{ 
 	background-color:rgba(128,230,255,.8);
 	text-decoration:none;
 }
-.socialmedia {
-	padding:.15em;
+.socialmedia{
+	padding:.162em;
+}
+#splashh1{
+	margin:0 3.24em;
+}
+#ctabutton{
+	display:block;
+	font-size:1.62em;
+	margin:.62em 6em;
+	padding:.162em;
+	text-align:center;
+	width:16em;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
 }
