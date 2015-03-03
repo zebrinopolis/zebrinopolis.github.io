@@ -30,8 +30,8 @@ nav a {
 	float:left;
 	font-family: 'Sue Ellen Francisco', cursive;
 	font-size:1.5em;
-	margin:3em .25em;
-	padding:0 .5em;
+	margin:3em 1em;
+	padding:0 1em;
 	text-decoration:none;
 }
 footer {
@@ -39,7 +39,6 @@ footer {
 	font-family: 'Sue Ellen Francisco', cursive;
 	font-size:1.62em;
 	margin:1em;
-	position:fixed;
 }
 a {
 	background-color:rgba(128,230,255,.5);
@@ -57,6 +56,10 @@ a:hover{
 .socialmedia{
 	padding:.162em;
 }
+.displayed {
+	clip:rect(50px);
+	position:absolute;
+}
 #splashh1{
 	margin:0 3.24em;
 }
@@ -69,9 +72,9 @@ a:hover{
 	width:16em;
 }
 .clearfix:after { 
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
    clear: both;
+   content: ".";
+   display: block; 
+   height: 0;  
+   visibility: hidden; 
 }
