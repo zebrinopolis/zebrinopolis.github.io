@@ -12,15 +12,17 @@ h1 {
 	font-size:3em;
 	margin:1em;
 }
-p {
-	font-family: 'Sue Ellen Francisco', cursive;
-	font-size:1.62em;
-	margin:0 6em;
+p{
+	font-family: 'Patrick Hand', cursive;
+	font-size:1.3em;
+	margin:0 9em;
 	width:20em;
 }
-img {
-	float:left;
-	opacity:.85;
+div p {
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size:1.62em;
+	margin:0 7em;
+	width:20em;
 }
 nav a {
 	background-color:rgba(128,230,255,.5);
@@ -30,15 +32,16 @@ nav a {
 	float:left;
 	font-family: 'Sue Ellen Francisco', cursive;
 	font-size:1.5em;
-	margin:3em 1em;
+	margin:3em .162em;
 	padding:0 1em;
 	text-decoration:none;
 }
 footer {
 	bottom:0;
+	clear: both;
 	font-family: 'Sue Ellen Francisco', cursive;
 	font-size:1.62em;
-	margin:1em;
+	margin:1em 7em;
 }
 a {
 	background-color:rgba(128,230,255,.5);
@@ -49,16 +52,19 @@ a {
 	padding:0 .5em;
 	text-decoration:none;
 }
+div{
+	background:none;
+	border:none;
+}
 a:hover{ 
 	background-color:rgba(128,230,255,.8);
 	text-decoration:none;
 }
-.socialmedia{
-	padding:.162em;
-}
 .displayed {
-	clip:rect(50px);
-	position:absolute;
+	border-radius: 125px;
+	-webkit-border-radius: 125px;
+	-moz-border-radius: 125px;
+	width:250px;
 }
 #splashh1{
 	margin:0 3.24em;
@@ -71,10 +77,54 @@ a:hover{
 	text-align:center;
 	width:16em;
 }
+.work{
+	clear:both;
+	margin:0 11em;
+	width:850px;
+}
+.work a:hover{
+	background:none;
+}
+.logo {
+	float:left;
+	opacity:.85;
+}
 .clearfix:after { 
    clear: both;
    content: ".";
    display: block; 
    height: 0;  
    visibility: hidden; 
+}
+.wtf{
+	background:none;
+	border:none;
+}
+.socialmedia a:hover{
+	background:none;
+	border:none;
+	opacity:1;
+
+}
+.socialmedia a{
+	background:none;
+	border:none;
+	margin:3.25em .25em;
+	opacity:.8;
+	padding:0;
+}
+.shopfront{
+	background-color:rgba(128,230,255,.5);
+	clear:both;
+	margin:12em;
+	padding:2em;
+	width:52%;
+	height:auto;
+}
+.shopfront a:hover{
+	background:none;
+	border:none;
+}
+.storeimg{
+	width:200px;
 }
